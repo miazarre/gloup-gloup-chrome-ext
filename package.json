@@ -1,0 +1,19 @@
+{
+  "name": "gloup-gloup-ext",
+  "version": "1.0.0",
+  "description": "chrome-extension",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miazarre/gloup-gloup-chrome-ext.git"
+  },
+  "author": "miazarre",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miazarre/gloup-gloup-chrome-ext/issues"
+  },
+  "homepage": "https://github.com/miazarre/gloup-gloup-chrome-ext#readme"
+}
