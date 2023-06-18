@@ -7,6 +7,9 @@ body {
   background-color: #1d1d1d;
   color: azure;
   font-family: "Bungee", cursive, sans-serif;
+  border: solid 2px#74cccf;
+  border-radius: 5px;
+  padding: 5px;
 }
 
 h1 {

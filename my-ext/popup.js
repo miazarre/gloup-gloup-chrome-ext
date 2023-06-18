@@ -1,7 +1,7 @@
 const pressButton = document.getElementById("button");
+
 pressButton.addEventListener("click", () => {
-  chrome.sendMessage(function (response) {
-    pressButton.textContent = "Text has been changed!";
+  chrome.runtime.sendMessage({ time: "1" }, function (response) {
     console.log(response);
   });
 });

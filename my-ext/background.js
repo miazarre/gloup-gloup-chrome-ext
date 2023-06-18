@@ -10,7 +10,7 @@ chrome.alarms.onAlarm.addListener(() => {
     () => {}
   );
 });
-chrome.onMessage.addListener(function (request, sender, sendResponse) {
+chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
   console.log(request);
   if (request.time) createAlarm();
 
@@ -19,7 +19,7 @@ chrome.onMessage.addListener(function (request, sender, sendResponse) {
 
 function createAlarm() {
   chrome.alarms.create("hydrate_yourself", {
-    delayInMinutes: 1,
-    periodInMinutes: 1,
+    delayInMinutes: 60,
+    periodInMinutes: 60,
   });
 }
