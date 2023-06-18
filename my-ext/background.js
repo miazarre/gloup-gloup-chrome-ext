@@ -2,7 +2,7 @@ chrome.alarms.onAlarm.addListener(() => {
   chrome.notifications.create(
     {
       type: "basic",
-      iconUrl: "icon-water-bottle.png",
+      iconUrl: "icon96.png",
       title: "Gloup Gloup",
       message: "Time to drink some water !",
       silent: false,

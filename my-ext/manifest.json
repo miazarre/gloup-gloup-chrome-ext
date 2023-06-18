@@ -3,6 +3,9 @@
     "description": "You need to drink some water !",
     "version": "1.0",
     "manifest_version": 3,
+    "icons": {
+        "48": "icon48.png",
+        "96": "icon96.png"},
     "background": {
         "service_worker": "background.js"
     },

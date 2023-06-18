@@ -1,7 +1,8 @@
-const pressButton = document.getElementById("button");
+const reminderButton = document.getElementById("set-reminder");
 
-pressButton.addEventListener("click", () => {
+reminderButton.addEventListener("click", () => {
   chrome.runtime.sendMessage({ time: "1" }, function (response) {
     console.log(response);
   });
+  reminderButton.textContent = "It's done !";
 });
